@@ -2,6 +2,9 @@ package io.github.derechtepilz.pilzapi.colorcodes
 
 import java.util.regex.Pattern
 
+/**
+ * This class is used to manage a [ColorGradient]. It is only used internally and should not be used by anyone else!
+ */
 class ColorHandler(startColor: String, endColor: String) {
 
 	private var firstColor: IntArray
